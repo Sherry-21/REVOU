@@ -1,0 +1,153 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    text-decoration : none;
+    list-style-type : none;
+    font-family : Poppins;
+}
+
+.flex-center{
+    display : flex;
+    justify-content : center;
+}
+
+.flex-between{
+    display : flex;
+    justify-content : space-between;
+}
+
+.flex-end{
+    display : flex;
+    justify-content : end;
+}
+
+.align-center{
+    display : flex;
+    align-items : center;
+}
+.text-center{
+    text-align: center;
+}
+
+header{
+    background-color : #3498DB;
+}
+
+.header-utama{
+    padding : 40px 0px;
+}
+
+.header-kiri{
+    font-weight : bold;
+    color : white;
+    margin-right : 20px;
+    font-size : 28px;
+}
+
+.header-kanan{
+    color : white;
+    font-weight : bold;
+    font-size : 20px;
+}
+
+.atas{
+    margin-top : 60px;
+}
+
+.tulisan-atas{
+    font-weight : bold;
+    margin-bottom : 5px;
+}
+
+.deret-button{
+    margin-top : 10px;
+}
+
+.tombol-main{
+    width : 100%;
+    padding : 8px 0px;
+    margin-bottom : 10px;
+    border : none;
+    font-weight : bold;
+    font-size : 15px;
+    transition : all 0.2s ease-in-out;
+}
+
+.tombol-main:hover{
+    transition : all 0.2s ease-in-out;
+    color : white;
+    background-color : #3379B7;
+}
+
+.active{
+    background-color : #3379B7;
+    color : white;
+}
+
+.main{
+    margin-top : 40px;  
+}
+
+.main-utama{
+    margin : 0px 20px;
+    width : 600px;
+}
+
+.header-main{
+    background-color : #3379B7;
+    color : white;
+    width : 100%;
+    padding : 20px 0px;
+    margin-bottom : 10px;
+    border : none;
+    font-weight : bold;
+    text-align : center;
+}
+
+.main-utama-2{
+    margin-top : 30px;
+}
+
+.tulisan-isi-main{
+    margin-top : 5px;
+}
+
+.input-button{
+    width : 98%;
+    padding : 8px;
+}
+
+.judul-hitung{
+    font-size : 28px;
+    font-weight : bold;
+    margin-top : 35px;
+}
+
+.mt-30{
+    margin-top : 20px;
+}
+
+.btn-submit{
+    color : white;
+     background-color : #3379B7; 
+     padding : 9px 20px;
+     border : none;
+     border-radius : 5px;
+}
+
+.for-mrgn{
+    margin-bottom : 50px;
+}
+
+.jawaban-isi-main{
+    margin-top : 20px;
+    display : none;
+}
+
+.btn-reset{
+    background-color : #ff781f;
+    color : white;
+    border : none;
+    border-radius : 8px;
+    padding : 10px;
+}

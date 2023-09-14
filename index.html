@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Lexend:wght@300&family=Podkova&family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="flex-center header-utama align-center">
+            <div class="header-kiri">
+                Katik
+            </div>
+            <div class="header-kanan">
+                Kalkulator Matematik
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="atas flex-center">
+            <div>
+                <h1 class="tulisan-atas flex-center">
+                    Welcome to Katik
+                </h1>
+                <p class="tulisan-main text-center">
+                    Hai sobat, Selamat datang di Kotik!
+                </p>
+                <p class="tulisan-main text-center">
+                    Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar
+                </p>
+                
+                <div class="deret-button">
+                    <div class="flex-center">
+                        <button class="tombol-main active">Pesergi</button>
+                    </div>
+                    <div class="flex-center">
+                        <button class="tombol-main">Persergi Panjang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex-between main">
+            <div class="main-utama">
+                <div class="header-main" id="header-main">
+                    Luas Pesergi
+                </div>
+    
+                <div class="main-utama-2">
+                    <div class="flex-center">
+                        <img src="./persegi.jpg" alt="" id="gambar-main">
+                    </div>
+                    <p class="ket-gambar text-center">Bujur Sangkar</p>
+                </div>
+    
+                <p class="tulisan-isi-main" id="tulisan-1">
+                    Rumus Luas Pesergi yaitu : 
+                </p>
+    
+                <div class="flex-center">
+                    <p class="tulisan-isi-main" id="tulisan-2">
+                        L = S x S
+                    </p>
+                </div>
+    
+                <p class="tulisan-isi-main">Di mana : </p>
+                <p class="tulisan-isi-main" id="tulisan-3">L = Luas</p>
+                <p class="tulisan-isi-main" id="tulisan-4">S = Sisi</p>
+                <!-- <p class="p-panjang">L = Lebar</p> -->
+                
+                <div class="flex-center judul-hitung">
+                    Hitung Luas Pesergi
+                </div>
+
+                <div class="flex-center mt-30">
+                    <input id="jawaban-sisi-luas" type="number" class="input-button" placeholder="Nilai Sisi">
+                </div>
+                
+                <p class="jawaban-isi-main" id="luas-1">
+                    L = S x S
+                </p>
+                <p class="jawaban-isi-main" id="luas-2">
+
+                </p>
+                <p class="jawaban-isi-main" id="luas-3">
+
+                </p>
+
+                <div class="flex-center mt-30">
+                    <button class="btn-submit" type="submit" onclick=validate()>Hitung</button>
+                </div>
+
+                <div class="flex-end">
+                    <button class="btn-reset" onclick=reset()>Reset</button>
+                </div>
+            </div>
+
+            <div class="main-utama">
+                <div class="header-main" id="header-main">
+                    Keliling Pesergi
+                </div>
+    
+                <div class="main-utama-2">
+                    <div class="flex-center">
+                        <img src="./persegi.jpg" alt="" id="gambar-main">
+                    </div>
+                    <p class="ket-gambar text-center">Bujur Sangkar</p>
+                </div>
+    
+                <p class="tulisan-isi-main" id="tulisan-1">
+                    Rumus Keliling Pesergi yaitu : 
+                </p>
+    
+                <div class="flex-center">
+                    <p class="tulisan-isi-main" id="tulisan-2">
+                        K = 4 x S
+                    </p>
+                </div>
+    
+                <p class="tulisan-isi-main">Di mana : </p>
+                <p class="tulisan-isi-main" id="tulisan-3">K = Keliling</p>
+                <p class="tulisan-isi-main" id="tulisan-4">S = Sisi</p>
+                
+                <div class="flex-center judul-hitung">
+                    Hitung keliling Pesergi
+                </div>
+                <div class="flex-center mt-30">
+                    <input id="jawaban-sisi-keliling" type="number" class="input-button" id="" placeholder="Nilai Sisi">
+                </div>
+                
+                <p class="jawaban-isi-main" id="keliling-1">
+                    K = 4 x S
+                </p>
+                <p class="jawaban-isi-main" id="keliling-2">
+
+                </p>
+                <p class="jawaban-isi-main" id="keliling-3">
+
+                </p>
+
+                <div class="flex-center mt-30">
+                    <button class="btn-submit" type="submit " onclick=validate2()>Hitung</button>
+                </div>
+
+                <div class="flex-end">
+                    <button class="btn-reset" onclick=reset2()>Reset</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="for-mrgn">
+
+        </div>
+    </main>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
